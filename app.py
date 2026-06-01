@@ -29,7 +29,7 @@ if "gemini_client" not in st.session_state:
         st.stop()
 
     # 建立 Gemini 客戶端
-    client = genai.client(api_key=api_key) # 【填空 12、13】建立客戶端與填入金鑰變數
+    client = genai.Client(api_key=api_key) # 【填空 12、13】建立客戶端與填入金鑰變數
     st.session_state.gemini_client = client
 
     system_instruction = (
