@@ -6,7 +6,7 @@ from google.genai import types
 
 # 頁面設定
 st.set_page_config(page_title="附中 AI 導覽員")
-st.title("陽明交大附中 - 小北導覽") # 【填空 2】填入導覽員的名字
+st.title("陽明交大附中 - 小北導覽gemini版本") # 【填空 2】填入導覽員的名字
 
 # 讀取背景知識
 try: # 【填空 3】設定例外處理的開頭（嘗試執行）
